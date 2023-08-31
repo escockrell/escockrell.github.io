@@ -1,3 +1,116 @@
 * {
-    font-family: Helvetica;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 222, 222);
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(100, 0, 200);
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.banner-links {
+    width: 650px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.banner-links a {
+    color: white;
+    margin: 0 10px; /* Add left and right margin to create spacing between links */
+    flex: 1; /* Distributes available space equally among links */
+    max-width: 160px; /* Limits the maximum width of each link */
+}
+
+h1.top {
+    padding-top: 40px;
+}
+
+div.attribute {
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+img {
+    height: auto;
+    width: 650px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(100, 0, 200);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.code {
+    font-family: monospace;
+    font-size: 20px;
+    background-color: beige;
+}
+
+.selectors table {
+    border: 2px solid rgb(150, 0, 200);
+    width: 650px;
+    margin: 0 auto;
+}
+
+.attribute .selectors table {
+    border: 2px solid rgb(150, 0, 200);
+    width: 650px;
+    margin: 0 auto;
+}
+
+.attribute table {
+    border: 2px solid rgb(150, 0, 200);
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.attribute p {
+    width: 1000px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: rgb(151, 143, 234)
+}
+
+th {
+    font-size: 25px;
+}
+
+td {
+    font-size: 20px;
+    border: 1px solid rgb(150, 0, 200);
+    text-align: left;
+    padding: 5px;
 }
