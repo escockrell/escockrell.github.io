@@ -32,7 +32,7 @@ function updateDistancesFromTop() {
 
     // Calculate the desired top margin for the footer
     var desiredTopMargin;
-    if (bodyDistanceFromTop - skillsDistanceFromTop >= 52) {
+    if (bodyDistanceFromTop - skillsDistanceFromTop >= 52 + 98) {
         desiredTopMargin = bodyDistanceFromTop - skillsDistanceFromTop - 52;
     } else {
         desiredTopMargin = 98;
@@ -42,6 +42,7 @@ function updateDistancesFromTop() {
     footerElement.style.marginTop = desiredTopMargin + 'px';
     document.documentElement.style.setProperty('--footer-top-margin', desiredTopMargin + 'px');
 
+    //getRootProperties();
 }
 
 function getRootProperties() {
