@@ -201,6 +201,14 @@ details summary {
     position: relative;
 }
 
+.icon-container img {
+    width: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
 /* Footer */
 :root {
     --skills-distance-from-top: 0; /* default value, overwritten by script.js*/
