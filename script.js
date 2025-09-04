@@ -1,4 +1,4 @@
-// Set initial value for skills-distance-from-top when page is loaded!
+// Set initial value for skills-distance-from-top when page is loaded!!
 document.addEventListener("DOMContentLoaded", pauseAndUpdateDistancesFromTop);
 
 // Update when the page is scrolled
